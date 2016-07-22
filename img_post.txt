@@ -1,0 +1,7 @@
+					<?
+						if( get_the_post_thumbnail() ) {
+							echo "<div class='place_content_img'>".get_the_post_thumbnail($image_id,array(200,200))."</div>";
+						} else {
+							echo "<div class='place_content_img'><img src='/wp-content/themes/life-haker/img/logo_for_post.png' width='140' height='140'></div>";
+						}
+					?>
